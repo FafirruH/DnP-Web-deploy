@@ -15,6 +15,39 @@ main.container {
     flex: 1 0 auto;
 }
 
+.bg-theme {
+    background-color: #1d5b8a !important;
+}
+
+.text-theme {
+    color: #1d5b8a !important;
+}
+
+.btn-theme {
+    background-color: #1d5b8a;
+    color: #ffffff;
+}
+
+.btn-theme:hover {
+    background-color: #17496e;
+    color: #ffffff;
+}
+
+.nav-toggle-label {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 991.88px) {
+    .nav-toggle-label {
+        display: block;
+    }
+}
+
 footer {
     flex-shrink: 0;
     width: 100%;
